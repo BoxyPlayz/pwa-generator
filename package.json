@@ -1,0 +1,19 @@
+{
+  "name": "pwa-maker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Boxy",
+  "license": "ISC",
+  "description": "Just a thing I made",
+  "bin": {
+    "make-pwa": "./bin/index.js"
+  },
+  "dependencies": {
+    "fs-extra": "^11.2.0",
+    "readline-sync": "^1.4.10"
+  },
+  "type": "module"
+}
